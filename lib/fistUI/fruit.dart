@@ -85,7 +85,6 @@ class _FruitState extends State<Fruit> {
                 itemNames[index],
                 itemQuantity[index],
               );
-              print(newnum);
             },
             child: Hero(
               tag: 'img$newnum',

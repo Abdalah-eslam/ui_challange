@@ -21,7 +21,6 @@ class _FruitDetailsState extends State<FruitDetails> {
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
-            print('img${rcvdData['id']}');
           },
           icon: Icon(Icons.arrow_back, color: Colors.black),
         ),
